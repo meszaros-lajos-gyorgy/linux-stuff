@@ -1,4 +1,4 @@
-# Soundcard
+# Soundcard driver
 
 Focusrite Scarlett Solo gen 4
 
@@ -18,7 +18,7 @@ It will output something like this:
 
 Create a `~/.config/pulse/default.pa` file with contents like this:
 
-```
+```sh
 .include /etc/pulse/default.pa
 
 load-module module-remap-source source_name=Mic master=alsa_input.usb-Focusrite_Scarlett_Solo_4th_Gen_XXXXXXXXXXXXXXXX-00.multichannel-input master_channel_map=front-right remix=no channel_map=mono
