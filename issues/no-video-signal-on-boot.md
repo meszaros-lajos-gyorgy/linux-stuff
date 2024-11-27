@@ -1,14 +1,9 @@
 # No video signal on boot
 
-## Temporary fix
+**step 1**: press right shift during the splash screen to show GRUB
 
-- press right shift to show boot options
-- select other boot options
-- select the first option from the list
+**step 2**: start in recovery mode
 
-If the text from GRUB shows, then the video signal will stay on and will boot correctly.
+**step 3**: run `vi /etc/default/grub`
 
-## Potential fix
-
-https://forums.linuxmint.com/viewtopic.php?t=426055
-https://askubuntu.com/a/872190/429828
+**step 4**: I changed back my `GRUB_CMDLINE_LINUX_DEFAULT` from `quiet splash drm.vblankoffdelay=0` to the default `quiet splash`

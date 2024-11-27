@@ -7,9 +7,9 @@
 - which is based on Debian 13 (Trixie)
 - using Linux kernel 6.8
 
-## Show boot options for Linux Mint (from where recovery mode can be accessed)
+## Show GRUB/boot options for Linux
 
-Press the right \[shift\] key after the splash screen (or more like during)
+Press the right \[shift\] key during the splash screen
 
 ## Get current Debian version
 

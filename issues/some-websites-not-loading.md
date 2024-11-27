@@ -4,7 +4,7 @@ Mostly shopify webshops, like https://www.analuisa.com/
 
 https://stackoverflow.com/questions/12849986/connection-timeout-when-accessing-github
 
-Solution: MTU needs to be lowered from 1500 to 1400 (https://askubuntu.com/a/655593/429828)
+Solution: MTU (Maximum Transmission Unit) needs to be lowered from 1500 to 1400 (https://askubuntu.com/a/655593/429828)
 
 The problem with the command in the solution that the change is not permanent, after restart it resets.
 
@@ -23,6 +23,9 @@ wlx9848278f1bf6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
 Note the end of the 1st line saying `mtu 1500`
 
-_TODO: add info on how to change the MTU permanently - it was done with a command, not by editing a config file_
+// nmcli is not a permanent solution
 
-Changing the MTU permanently: https://www.baeldung.com/linux/maximum-transmission-unit-change-size
+## Docs
+
+- https://www.baeldung.com/linux/maximum-transmission-unit-change-size
+- https://linuxhaxor.net/code/how-to-change-mtu-size-in-linux.html
