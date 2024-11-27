@@ -14,6 +14,8 @@ Windows XP-ish look to it that I really liked.
 
 The last KDE minor version of 3.x was forked as [Trinity Desktop Environment](https://en.wikipedia.org/wiki/Trinity_Desktop_Environment).
 
+![preview of Trinity Desktop Environment](https://upload.wikimedia.org/wikipedia/commons/3/36/Trinity_Desktop_Env._snapshot2.png)
+
 I tried [installing it](https://wiki.trinitydesktop.org/Ubuntu_Trinity_Repository_Installation_Instructions) in
 a VM for [Trisquel](https://en.wikipedia.org/wiki/Trisquel), but it seems to have a few flaws, even the mouse
 movement isn't that smooth.

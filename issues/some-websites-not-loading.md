@@ -23,6 +23,6 @@ wlx9848278f1bf6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
 Note the end of the 1st line saying `mtu 1500`
 
-_TODO: add info on how to change the MTU permanently_
+_TODO: add info on how to change the MTU permanently - it was done with a command, not by editing a config file_
 
 Changing the MTU permanently: https://www.baeldung.com/linux/maximum-transmission-unit-change-size
