@@ -23,9 +23,11 @@ wlx9848278f1bf6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
 Note the end of the 1st line saying `mtu 1500`
 
-// nmcli is not a permanent solution
+A shorter version for getting the mtu once the network identifier is found is the following:
 
-## Docs
+`ifconfig wlx9848278f1bf6 | grep mtu`
+
+See docs for ways to make it permanent
 
 - https://www.baeldung.com/linux/maximum-transmission-unit-change-size
 - https://linuxhaxor.net/code/how-to-change-mtu-size-in-linux.html
